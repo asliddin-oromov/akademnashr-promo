@@ -1,0 +1,125 @@
+.site-header
+{
+  background-color: white
+}
+.sitenav-link{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-link{
+  background-color: #FF7500;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.hero{
+  background-color: #252420;
+  color: #ffffff;
+}
+
+.hero-content{
+  width: 390px;
+}
+.primary-button{
+  background: #FF7500;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.site-wrapper{
+  background: #FFFFFF;
+}
+.nega-akademnashr{
+color: #000000;
+width: 435px;
+font-weight: 700;
+font-size: 72px;
+
+}
+.hero-img{
+width: 510px;
+height: 510px;
+}
+.features-item{
+  width: 340px;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+.sale-bg{
+  background: #252420;
+
+  width: 1100px;
+}
+.sale-content{
+
+  width: 440px;
+color: #FFFFFF;
+
+}
+.hr-chiziq{
+  background: #FF7500;
+  width: 80px;
+  height: 3px;
+}
+.hr-uzun{
+  background: rgba(37, 36, 32, 0.5);
+  width: 1100px;
+  height: 2px;
+}
+.footer-link{
+text-decoration: none;
+}
+.promo-aksiya{
+  width: 373;
+}
+.promo-paragraf{
+width: 440;
+}
+.aksiyadagi-kitob{
+  width: 440px;
+  height: 440px;
+}
+.logolar{
+  width: 100px;
+  height: 100px;
+  background: #FF750033;
+
+}
+.headr-text{
+  color:  #000000;
+  font-weight: 700;
+font-size: 24px;
+
+}
+.akadem-paragraf{
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+ul a{
+  text-decoration: none;
+}
+ul{
+list-style: none;
+}
+.footer-links{
+  width: 224px
+}
+.footer-links a{
+  color: #252420;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+}
