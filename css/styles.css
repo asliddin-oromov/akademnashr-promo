@@ -5,6 +5,17 @@ body{
   letter-spacing: 0.5px;
 
 }
+.logo-link{
+transition: opacity 0.4s ease;
+}
+
+.logo-link:hover{
+   opacity: 0.8;
+}
+.logo-link:active{
+ opacity: 0.6;
+
+}
 
 .site-header-action{
 display: flex;
@@ -27,16 +38,32 @@ display: flex;
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease,
+  opacity 0.4s ease;
+
+}
+.sitenav-link:hover{
+  color: #FF7500;
 }
 
+.sitenav-link:active{
+  opacity: 0.6;
+}
 .main-link{
   background-color: #FF7500;
   text-decoration: none;
   font-size: 13px;
   line-height: 15px;
   color: #ffffff;
+  transition: 00.4s ease;
 }
-
+.main-link:hover{
+  opacity: 0.8;
+}
+.main-link:active
+{
+  opacity: 0.6;
+}
 .hero{
   display: flex;
   align-items: center;
@@ -49,14 +76,7 @@ display: flex;
   width: 390px;
   font-family: "Roboto Condensed", Arial,  sans-serif;
 }
-.primary-button{
-  background: #FF7500;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 15px;
-  color: #FFFFFF;
-  text-decoration: none;
-}
+
 .site-wrapper{
   background: #FFFFFF;
 }
@@ -181,6 +201,16 @@ justify-content: space-between;
   display: flex;
   align-items: center;
 }
+.site-footer-social a{
+  color: #252420;
+}
+.site-footer-social a:hover
+{
+  color: #FF7500;
+}
+.site-footer-social a:active{
+  opacity: 0.6;
+}
 .footer-links{
   width: 224px;
   font-family: Roboto;
@@ -199,4 +229,10 @@ justify-content: space-between;
   font-size: 16px;
   line-height: 19px;
 
+}
+.footer-links a:hover{
+  color: #FF7500;
+}
+.footer-links a:active{
+  opacity: 0.6;
 }
